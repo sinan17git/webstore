@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Store</title>
+  <link href="ff.css" type="text/css" rel="stylesheet">
+  <div class="head1">
+    <div class="logo2">
+      <img src="logo1.png">
+
+    </div>
+    <h1>🎮 Stealer Game Store</h1>
+</div>
+<div class="dot"><button class="abt">☰</button></div>
+
+  
+</head>
+<body>
+
+  <div class="store-container">
+    <h2 style="margin-bottom: 20px;">Featured Games</h2>
+    <div class="games-grid">
+    
+      <!-- Game 1 -->
+      <div class="game-card">
+        <img src="" alt="Game 1" />
+        <div class="card-body">
+          <h3>Cyber Shooter</h3>
+          <p>$29.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Game 2 -->
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+2" alt="Game 2" />
+        <div class="card-body">
+          <h3>Space Quest</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Game 3 -->
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+3" alt="Game 3" />
+        <div class="card-body">
+          <h3>Dragon Realms</h3>
+          <p>$39.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Game 4 -->
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Game 5 (Duplicate Space Quest removed if not intentional) -->
+      <!-- Remove this if you don't need it -->
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+5" alt="Game 5" />
+        <div class="card-body">
+          <h3>Space Quest</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div><div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x150?text=Game+4" alt="Game 4" />
+        <div class="card-body">
+          <h3>Call of Duty</h3>
+          <p>$19.99</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+
+</body>
+</html>
+<!----pop up-->
+<style>
+    #popup {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      display: flex; align-items: center; justify-content: center;
+      visibility: hidden;
+    }
+
+    #popupContent {
+      background: #686868;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      min-width: 300px;
+    }
+
+    #popup.show {
+      visibility: visible;
+    }
+
+    #closeBtn {
+     border-radius: 100PX;
+      margin-top: 15px;
+      padding: 8px 16px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      
+    }
+    .sia{
+      font-style: italic;
+      color: #000000;
+      margin-left: 350px;
+      font-size: large;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="popup">
+    <div id="popupContent">
+      <h2>👋 Welcome!</h2>
+      <p>This Web site is under construction it will release shortly🦾<br><p1 class="sia">~sinan</p1></p>
+      <button id="closeBtn">OK</button>
+    </div>
+  </div>
+  
+
+  <script>
+    window.onload = function() {
+      document.getElementById("popup").classList.add("show");
+
+      document.getElementById("closeBtn").addEventListener("click", function() {
+        document.getElementById("popup").classList.remove("show");
+      });
+    };
+  </script>
+</body>
+
